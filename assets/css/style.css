@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap');
+
+:root{
+    --red1--: #19456B;
+    --red2--: #11698E;
+    --black1--:#16C79A;
+    --white1--:#FFFFFF;
+    --white2--:#F8F1F1;
+
+    --fontPadrao--:'Manrope', sans-serif;
+}
+
+/* genérico*/
+*{
+    font-family: var(--fontPadrao--);
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    font-family: var(--fontPadrao--);
+    color: var(--black1--);
+}
+
+.btn{
+    padding: 20px 40px;
+    color: var(--white1--);
+    text-transform: uppercase;
+    font-family: var(--fontPadrao--);
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.btn-sm{
+    font-family: var(--fontPadrao----);
+    font-weight: 700;
+    font-size: 15px;
+    padding: 12px 24px;
+}
+.btn-primary{
+    background-color:var(--black1--);
+    border-radius: 90px;
+}
+.btn-primary:hover{
+    background-color:#1AA17E;
+    cursor: pointer;
+}
+.btn-outline{
+    font-family: var(--fontPadrao--);
+    line-height: 24px;
+    background-color: transparent;
+    border: 2px solid var(--red1--);
+    color: var(--red1--);
+    border-radius: 90px;
+}
+.btn-outline:hover{
+    color: var(--red2--);
+    ;
+    border-color: var(--red2--);
+    cursor: pointer;
+}
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.overtitle{
+    color: var(--black1--);
+    font-family: var(--fontPadrao--);
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.title{
+    color: #FFFFFF;
+    font-family: var(--fontPadrao--);
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 56px;
+}
+
+/* layout */
+
+/* cabeçalho */
+#header-container{
+   background-color: var(--white2--); 
+}
+.header{
+    color: var(--white1--);
+    padding: 24px 72px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* section HERO */
+#hero-container{
+    background-color: var(--white2--); 
+    color: var(--red1--);
+    padding: 0 72px;
+}
+.hero{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+.hero-img{
+    flex: 1;
+    align-self: flex-end;
+}
+.hero-text{
+    display: flex; flex: 1;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+    padding: 96px 0;
+}
+.hero-img img{
+    padding-bottom: 20px;
+    max-width: 100%;
+}
+
+.hero-text__title{
+    font-size: 56px;
+    line-height: 64px;
+    font-weight: 700;
+}
+.hero-text__subtitle{
+    font-family: var(--fontPadrao--);
+    color: var(--red2--);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+
+    max-width: 520px;
+}
+
+/* section services */
+#services-container{
+    padding: 96px 72px;
+    background-color: var(--red1--);
+}
+.services-list{
+    margin-top: 48px;
+    display: flex;
+    gap: 32px;
+}
+.services-card{
+    background-color: var(--red2--);
+    border-radius: 32px;
+}
+.services-card img{
+    width: 100%;
+    border-radius:32px 32px 0px 0px;
+}
+.service-card__text{
+    padding: 32px;
+}
+.service-card__text h3{
+    color: #FFFFFF;
+    font-family: var(--fontPadrao--);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 32px;
+
+    margin-bottom: 8px;
+}
+.service-card__text p{
+    color: #FFFFFF;
+    font-family: var(--fontPadrao--);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+/* section LOCATION */
+#location-container{
+    background-color:#F5EEEE;
+}
+#location-container .location{
+    padding: 96px 72px 48px;
+}
+#location-container address{
+    font-family: var(--fontPadrao----);
+    color: #11698E;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    gap: 10px;
+}
+#location-container h2{
+    color: var(--red1--);
+}
+/* footer */
+#footer-container{
+    background-color: var(--red2--);
+    padding: 48px 72px;
+}
+.rodape{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: #FFFFFF;
+    font-family: var(--fontPadrao--);
+}
+.rodape span{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+.footer-copy {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}

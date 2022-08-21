@@ -1,0 +1,114 @@
+@media (min-width: 426px) and (max-width:768px){
+    .header{
+        padding-right: 20px;
+    }
+    .btn-sm{
+        font-family: var(--font2--);
+        gap: 10px;
+        padding: 12px 24px;
+    }
+    .hero-text__title{
+        width: 320px;
+        height: 80px;
+        font-size: 32px;
+        line-height: 35px;
+    }
+    .hero-text__subtitle{
+        width: 320px;
+        height: 96px;
+
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .hero{
+        align-items: center;
+        padding: 48px 20px 0px;
+         width: 360px;
+    }
+    
+    
+    .btn{
+        padding: 20px 40px;
+        gap: 20px;
+       width: 320px;
+       height: 62px;
+    }
+    .hero-img{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .services-list{
+        margin-top: 24px;
+        display: flex;
+        flex-direction: column
+    }
+
+    .service-card__text h3{
+     width: 320px;
+    height: 72px;
+
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    }
+}
+@media (max-width: 768px){
+    .hero-img{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media (max-width: 425px){
+    .header{
+        padding: 20px;
+        gap: 10px;
+    }
+    .btn-sm{
+        font-family: var(--fontPadrao--);
+        line-height: 20px;
+        font-size:14px;
+    }
+    .hero{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    .hero-text__title{
+        width: 300px;
+        font-size: 3rem;
+        line-height: 80px;
+    }
+    .hero-text__subtitle{
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 400;
+    }
+    .btn-primary{
+        padding: 20px 50px;
+    }
+    .hero-img {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+    .hero-img img{
+        max-width: 300px;
+    }
+    .services-list{
+        margin-top: 24px;
+        display: flex;
+        flex-direction: column
+    }
+    .service-card__text h2{
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 32px;
+        margin-bottom: 8px;
+    }
+}
