@@ -1,5 +1,6 @@
 # 📍 Veterinario
-![screencapture-lrauane-github-io-salao-beleza-2022-08-14-11_21_29](https://user-images.githubusercontent.com/102835801/184541342-1305afe3-151c-460d-9984-ef7ff230a1f5.png)
+![screenshot (7)](https://user-images.githubusercontent.com/102835801/186043348-1e27c0ff-9a51-4cbe-b049-0b696b2be7ff.png)
+
 
 # 📍 Bibliotecas utilizadas
 - [Google fonts](https://fonts.google.com/)
