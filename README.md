@@ -23,4 +23,4 @@ página estática de um veterinário.
 # 📍 Como posso acessar esse projeto
 ### Voce pode acessa esse site pelo link:
 
-- Hospedado: https://lrauane.github.io/salao_beleza/
+- Hospedado: https://lrauane.github.io/Veterinario/
